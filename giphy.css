@@ -1,0 +1,10 @@
+body{
+    background-image: url(castle.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 120%;
+}
+.form-control{
+width: 25%;
+}
