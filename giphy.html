@@ -8,26 +8,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   
     <link rel="stylesheet"  href="./giphy.css">
     
   </head>
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="giphy.js"></script>
-    <div id = "container">
+    <div id = "containerForNames" class = "container">
 
     </div>
-      <form action="/action_page.php">
+      <div>
         <div class="form-group">
           <label for="text">Princess Your choice:</label>
           <input type="text" class="form-control" id="yourPrincess">
         </div>
-        <button type="submit" class="btn btn-default">Find
+        <button id="buttonFind" type="submit" class="btn btn-default" onclick="populatingArray()">Find
         </button>
-      </form>
-      <div id="gif-appear"></div>
-    
+      </div>
+      <div class="container">
+        <div id="gif-appear" class="row">
+          
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

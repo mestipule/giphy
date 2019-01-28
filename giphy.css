@@ -8,3 +8,29 @@ body{
 .form-control{
 width: 25%;
 }
+img{
+    border: double yellowgreen 10px;
+}
+p{
+    background-color: bisque; 
+    width: 45%
+    
+}
+.form-group{
+    margin-left: 45%;
+}
+#buttonFind{
+    margin-left: 50%;
+}
+#containerForNames{
+    margin-left: 42%;
+}
+@media (min-width: 1281px){
+
+}
+@media (min-width: 1012px){
+
+}
+@media (min-width: 1024px)and (min-width: 768px) and {
+
+}
